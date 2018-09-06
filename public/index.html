@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.1/flatly/bootstrap.min.css" rel="stylesheet">
+    <!--CSS/Styles-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <title>Tom N' jQuery's Recipe Finder</title>
+
+</head>
+
+<body>
+  <center>
+    <h1>Tom N' jQuery's Recipe Finder</h1>
+  </center>
+  <br>
+
+  <body style="max-width: 80%; margin-left: auto; margin-right: auto;"></body>
+  <div class="row">
+    <br>
+    <div class="col-sm-4">
+      <p>"Please type in an ingredient &#40;no numbers or symbols&#41;."</p>
+      <div class="w-100 p-3" "input-group input-group-sm mb-3">
+        <input type="text" pattern="[A-Za-z]{1,20}" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm"
+          placeholder="Ingredient 1" id="num1">
+      </div>
+
+      <div class="w-100 p-3" "input-group input-group-sm mb-3">
+        <input type="text" pattern="[A-Za-z]{1,20}" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm"
+          placeholder="Ingredient 2" id="num2">
+      </div>
+
+      <div class="w-100 p-3" "input-group input-group-sm mb-3">
+        <input type="text" pattern="[A-Za-z]{1,20}" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm"
+          placeholder="Ingredient 3" id="num3">
+      </div>
+
+      <div class="w-100 p-3" "input-group input-group-sm mb-3">
+        <input type="text" pattern="[A-Za-z]{1,20}" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm"
+          placeholder="Ingredient 4" id="num4">
+      </div>
+
+      <div class="w-100 p-3" "input-group input-group-sm mb-3">
+        <input type="text" pattern="[A-Za-z]{1,20}" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm"
+          placeholder="Ingredient 5" id="num5">
+      </div>
+
+      <button type="button" pattern="[A-Za-z]{1,20}" class="btn btn-outline-success" id="submit">Submit</button>
+    </div>
+
+
+    </div>
+  </div>
+  <br>
+  <div class="instructions">
+    <p>Click the picture to go to the recipe, click the name to see a video of a similar recipe.</p>
+  </div>
+  <!--Footer/Recipes goes here-->
+  <footer>
+    <br>
+    <br>
+    <div class="card-deck" id="cardDeck">
+
+    </div>
+    <br>
+    <br>
+  </footer>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="/models/app.js"></script>
+</body>
+
+</html>

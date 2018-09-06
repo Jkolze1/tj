@@ -1,0 +1,50 @@
+body {
+    background-color: #e1ecdc;
+    background-image: url("../../assets/images/checkered-light-emboss.png");
+}
+
+.card-title {
+    cursor: pointer;
+    color: #18bc9c;
+    text-decoration: underline;
+    font-family: 'Roboto Slab', serif;
+}
+
+.card-body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Ruda', sans-serif;
+    color: saddlebrown;
+}
+
+.form-control p {
+    font-family: 'Roboto Slab', serif;
+}
+
+.form-control:invalid {
+    border-color: red;
+    border-width: 2px;
+}
+
+.card-deck {
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    color: saddlebrown;
+    font-size: 1.2rem;
+}
+
+#submit {
+    background-color: white;
+}
+
+#submit:hover {
+    background-color: #18bc9c;
+}
